@@ -33,7 +33,8 @@ chmod +x prepare-commit-msg
 
 Install the prepare-commit-msg hook:
 ```
-ln -s ../../prepare-commit-msg .git/hooks/prepare-commit-msg
+cp prepare-commit-msg <new-repo>/.git/hooks/prepare-commit-msg
+cp create_git_message.py <new-repo>/.git/hooks/create_git_message.py
 ```
 
 ## Usage

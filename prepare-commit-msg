@@ -3,5 +3,5 @@ COMMIT_MSG_FILE=$1
 COMMIT_SOURCE=$2
 SHA1=$3
 hint=$(cat "$COMMIT_MSG_FILE")
-git diff --cached > /tmp/test.py  && python create_git_message.py /tmp/test.py > $COMMIT_MSG_FILE
+git diff --cached > /tmp/test.py  && python3 .git/hooks/create_git_message.py /tmp/test.py > $COMMIT_MSG_FILE
 echo "$hint" >> "$COMMIT_MSG_FILE"
