@@ -1,7 +1,9 @@
 #AI Git Hooks
+
 This repository contains a Git commit hook that uses OpenAI to automatically generate commit messages based on the changes made in the commit.
 
 ##How it works
+
 The prepare-commit-msg script is a Git commit hook that is triggered automatically before each commit. It extracts the changes made in the commit and passes them to the create_git_message.py script, which uses the OpenAI API to generate a commit message based on the changes. The generated commit message is then added to the commit.
 
 ##Requirements
