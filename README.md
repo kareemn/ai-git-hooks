@@ -2,8 +2,9 @@
 
 This repository contains a Git commit hook that uses OpenAI to automatically generate commit messages based on the changes made in the commit.
 
-![](https://github.com/kareemn/ai-git-hooks/Your_GIF_Name.gif)
-
+<p align="center">
+<img src="https://github.com/kareemn/ai-git-hooks/blob/master/demo.gif" width="500">
+</p>
 
 ## How it works
 
