@@ -19,7 +19,6 @@ The prepare-commit-msg script is a Git commit hook that is triggered automatical
 Clone the repository:
 ```bash
 git clone https://github.com/kareemn/ai-git-hooks.git
-cd <repository>
 ```
 
 Install the required Python packages:
