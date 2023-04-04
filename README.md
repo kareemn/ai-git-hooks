@@ -14,7 +14,7 @@ The prepare-commit-msg script is a Git commit hook that is triggered automatical
 ## Setup
 Clone the repository:
 ```bash
-git clone https://github.com/<username>/<repository>.git
+git clone https://github.com/kareemn/ai-git-hooks.git
 cd <repository>
 ```
 
